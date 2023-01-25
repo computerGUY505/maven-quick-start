@@ -28,6 +28,7 @@ public class Application {
 		Application app = new Application();
 		app.greet();
 		int count = app.countwords("I have the sentence 'a quick brown fox jumps over the lazy dog'");
+		System.out.println(count);
 	}
 
 }
